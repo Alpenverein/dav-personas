@@ -17,8 +17,8 @@ function persona_shortcode( $atts ) {
             'mail' => 'n',
             'telefon' => 'n',
             'rund' => 'n',
-            'position' => 'n',
-            'funktion' => 'j'
+            'position' => 'j',
+            'funktion' => 'n'
         ),$atts);
 
 
@@ -107,14 +107,32 @@ function persona_shortcode( $atts ) {
                             break;
                     }
 
-                    // set value for image-layout
+
+
+                    // set value for position
                     switch ($sc_persona['position']) {
                         case 'j':
-                            $persona_position = 'ja';
+                            $persona_position = get_the_term_list($persona,'personarole','',', ');
+                            break;
+                        case 'n':
+                            $persona_position = '';
                             break;
                         default:
                             $persona_position = get_the_term_list($persona,'personarole','',', ');
                             $persona_position = preg_replace('#<a.*?>(.*?)</a>#i', '\1', $persona_position);
+                            break;
+                    }
+
+                    // set value for position
+                    switch ($sc_persona['funktion']) {
+                        case 'j':
+                            $persona_funktion = $persona_meta['persona_daten_funktion'][0];
+                            break;
+                        case 'n':
+                            $persona_funktion = '';
+                            break;
+                        default:
+                            $persona_funktion = $persona_meta['persona_daten_funktion'][0];
                             break;
                     }
 
@@ -143,7 +161,7 @@ function persona_shortcode( $atts ) {
                     <div class="col-12 col-lg-8 p-0 pt-3 pt-lg-0 pl-lg-3 text-center text-lg-left">
                         <span class="person-name">' . $persona_data->post_title . '</span>
                         <span class="person-title">' . $persona_position. '</span>
-                      <span class="person-title">' . $persona_meta['persona_daten_funktion'][0] . '</span>
+                      <span class="person-title">' . $persona_funktion. '</span>
                       <hr>
                     </div>
                     </div>
