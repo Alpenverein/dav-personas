@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03fdffb0-2139-40b3-925d-58dbcf9de5d5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/add_posttype.php" beforeDir="false" afterPath="$PROJECT_DIR$/add_posttype.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/add_shortcodes.php" beforeDir="false" afterPath="$PROJECT_DIR$/add_shortcodes.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dav-personas.php" beforeDir="false" afterPath="$PROJECT_DIR$/dav-personas.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,7 +19,7 @@
       <file leaf-file-name="add_shortcodes.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/add_shortcodes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
+            <state relative-caret-position="3880">
               <caret line="196" column="58" selection-start-line="196" selection-start-column="55" selection-end-line="196" selection-end-column="58" />
             </state>
           </provider>
@@ -31,11 +28,8 @@
       <file leaf-file-name="dav-personas.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dav-personas.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2100">
-              <caret line="101" selection-start-line="101" selection-end-line="101" selection-end-column="70" />
-              <folding>
-                <element signature="e#6#574#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="160">
+              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -43,7 +37,7 @@
       <file leaf-file-name="add_posttype.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/add_posttype.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
+            <state relative-caret-position="1240">
               <caret line="62" column="10" selection-start-line="62" selection-start-column="10" selection-end-line="62" selection-end-column="10" />
             </state>
           </provider>
@@ -68,9 +62,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dav-personas.php" />
         <option value="$PROJECT_DIR$/add_shortcodes.php" />
         <option value="$PROJECT_DIR$/add_posttype.php" />
+        <option value="$PROJECT_DIR$/dav-personas.php" />
       </list>
     </option>
   </component>
@@ -142,14 +136,15 @@
       <workItem from="1573058917315" duration="590000" />
       <workItem from="1573072067775" duration="590000" />
       <workItem from="1573624152513" duration="3378000" />
+      <workItem from="1574066653358" duration="567000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16703000" />
+    <option name="totallyTimeSpent" value="17270000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="23" width="1440" height="877" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -158,7 +153,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27753934" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2811159" />
       <window_info anchor="bottom" id="Statistic" order="7" />
       <window_info anchor="bottom" id="Docker" order="7" />
       <window_info anchor="right" id="Database" order="3" />
@@ -181,6 +176,27 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/add_shortcodes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3880">
+          <caret line="196" column="58" selection-start-line="196" selection-start-column="55" selection-end-line="196" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/add_posttype.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1240">
+          <caret line="62" column="10" selection-start-line="62" selection-start-column="10" selection-end-line="62" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dav-personas.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1840">
+          <caret line="101" selection-start-line="101" selection-end-line="101" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/add_shortcodes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2960">
@@ -220,9 +236,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1840">
           <caret line="101" selection-start-line="101" selection-end-line="101" selection-end-column="70" />
-          <folding>
-            <element signature="e#6#574#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -237,9 +250,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1900">
           <caret line="104" lean-forward="true" selection-start-line="104" selection-end-line="104" selection-end-column="57" />
-          <folding>
-            <element signature="e#6#574#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -252,25 +262,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/add_posttype.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
+        <state relative-caret-position="1240">
           <caret line="62" column="10" selection-start-line="62" selection-start-column="10" selection-end-line="62" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/add_shortcodes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
+        <state relative-caret-position="3880">
           <caret line="196" column="58" selection-start-line="196" selection-start-column="55" selection-end-line="196" selection-end-column="58" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dav-personas.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2100">
-          <caret line="101" selection-start-line="101" selection-end-line="101" selection-end-column="70" />
-          <folding>
-            <element signature="e#6#574#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="160">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
         </state>
       </provider>
     </entry>
