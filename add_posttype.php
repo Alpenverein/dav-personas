@@ -40,6 +40,8 @@ function cpt_personas() {
         'pages'                 => true,
         'feeds'                 => true,
     );
+
+
     $args = array(
         'label'                 => __( 'Persona', 'text_domain' ),
         'description'           => __( 'Dieser CPT soll die Personen der Sektion erfassen.', 'text_domain' ),
@@ -55,11 +57,28 @@ function cpt_personas() {
         'show_in_admin_bar'     => true,
         'show_in_nav_menus'     => true,
         'can_export'            => true,
-        'has_archive'           => false,
+        'has_archive'           => true,
         'exclude_from_search'   => false,
         'publicly_queryable'    => true,
-        'rewrite'               => $rewrite,
+        //'rewrite'               => $rewrite,
         'show_in_rest'          => false,
+        'capability_type' => 'Personas',
+        'capabilities' => array(
+            'edit_others_posts'     => 'edit_others_personas',
+            'delete_others_posts'   => 'delete_others_personas',
+            'delete_private_posts'  => 'delete_private_personas',
+            'edit_private_posts'    => 'edit_private_personas',
+            'read_private_posts'    => 'read_private_personas',
+            'edit_published_posts'  => 'edit_published_personas',
+            'publish_posts'         => 'publish_personas',
+            'delete_published_posts'=> 'delete_published_personas',
+            'edit_posts'            => 'edit_personas'   ,
+            'delete_posts'          => 'delete_personas',
+            'edit_post'             => 'edit_persona',
+            'read_post'             => 'read_persona',
+            'delete_post'           => 'delete_persona',
+        ),
+        'map_meta_cap' => true,
     );
     register_post_type( 'personas', $args );
 

@@ -18,7 +18,9 @@ function persona_shortcode( $atts ) {
             'telefon' => 'n',
             'rund' => 'n',
             'position' => 'j',
-            'funktion' => 'n'
+            'funktion' => 'n',
+            'text' => 'j',
+            'link' => 'n'
         ),$atts);
 
 
@@ -70,7 +72,7 @@ function persona_shortcode( $atts ) {
                         case 'j':
 
                             if($persona_meta['persona_daten_telefon'][0] != '') {
-                                $persona_phone = '<i class="fas fa-phone d-lg-inline"></i> <a href="tel://'.preg_replace ('#\s+#' , '' , $persona_meta['persona_daten_telefon'][0]).'">'. $persona_meta['persona_daten_telefon'][0].'</a>';
+                                $persona_phone = '<span class="persona-phone"><i class="fas fa-phone d-lg-inline"></i> <a href="tel://'.preg_replace ('#\s+#' , '' , $persona_meta['persona_daten_telefon'][0]).'">'. $persona_meta['persona_daten_telefon'][0].'</a></span>';
                             } else {
                                 $persona_phone = '';
                             }
@@ -86,7 +88,7 @@ function persona_shortcode( $atts ) {
                         case 'j':
 
                             if($persona_meta['persona_daten_e_mail'][0] != '') {
-                                $persona_mail = '<i class="far fa-envelope d-lg-inline"></i> <a href="mailto:'.$persona_meta['persona_daten_e_mail'][0].'">' . $persona_meta['persona_daten_e_mail'][0].'</a>';
+                                $persona_mail = '<span class="persona-phone"><i class="far fa-envelope d-lg-inline"></i> <a href="mailto:'.$persona_meta['persona_daten_e_mail'][0].'">' . $persona_meta['persona_daten_e_mail'][0].'</a></span>';
                             } else {
                                 $persona_mail = '';
                             }
@@ -137,6 +139,33 @@ function persona_shortcode( $atts ) {
                     }
 
 
+                    // set value for position
+                    switch ($sc_persona['text']) {
+                        case 'j':
+                            $persona_text = '<p>'.$persona_data->post_content.'</p>';
+                            break;
+                        case 'n':
+                            $persona_text = '';
+                            break;
+                        default:
+                            $persona_text = '<p>'.$persona_data->post_content.'</p>';
+                            break;
+                    }
+
+                    // set value for position
+                    switch ($sc_persona['link']) {
+                        case 'j':
+                            $persona_link = '<a class="btn btn-primary" type="button" href="'.get_permalink($persona_data->ID).'">Mehr zu ' . $persona_data->post_title . '</a>';
+                            break;
+                        case 'n':
+                            $persona_link = '';
+                            break;
+                        default:
+                            $persona_link = '';
+                            break;
+                    }
+
+
                     //get thumnail-image
                     $persona_thumb = get_the_post_thumbnail($persona, 'persona-thumb', array('class' => 'img-fluid ' . $persona_image));
 
@@ -167,10 +196,10 @@ function persona_shortcode( $atts ) {
                     </div>
                     <div class="row m-3" style="margin-top: 0 !important;">
                     <div class="col-12 p-0 p-lg-0">
-                    <span class="persona-phone">' . $persona_phone . '</span>
-                      <span class="persona-mail">' . $persona_mail . '</span>
-                        <p class="persona-text">' . $persona_data->post_content . '</p>
-                        
+                    ' . $persona_phone.
+                    $persona_mail.
+                    $persona_text.
+                    $persona_link.'
                     </div>
                   </div>
                 </div>
