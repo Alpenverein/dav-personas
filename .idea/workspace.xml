@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="03fdffb0-2139-40b3-925d-58dbcf9de5d5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/dav-personas.php" beforeDir="false" afterPath="$PROJECT_DIR$/dav-personas.php" afterDir="false" />
-    </list>
+    <list default="true" id="03fdffb0-2139-40b3-925d-58dbcf9de5d5" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,35 +13,7 @@
     <pharConfigPath>$PROJECT_DIR$/update/composer.json</pharConfigPath>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="add_shortcodes.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/add_shortcodes.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3880">
-              <caret line="196" column="58" selection-start-line="196" selection-start-column="55" selection-end-line="196" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dav-personas.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dav-personas.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="add_posttype.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/add_posttype.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1240">
-              <caret line="62" column="10" selection-start-line="62" selection-start-column="10" selection-end-line="62" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -136,12 +106,12 @@
       <workItem from="1573058917315" duration="590000" />
       <workItem from="1573072067775" duration="590000" />
       <workItem from="1573624152513" duration="3378000" />
-      <workItem from="1574066653358" duration="567000" />
+      <workItem from="1574066653358" duration="1168000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17270000" />
+    <option name="totallyTimeSpent" value="17871000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
@@ -260,24 +230,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/add_posttype.php">
+    <entry file="file://$PROJECT_DIR$/dav-personas.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1240">
-          <caret line="62" column="10" selection-start-line="62" selection-start-column="10" selection-end-line="62" selection-end-column="10" />
+        <state relative-caret-position="160">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/add_shortcodes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3880">
+        <state relative-caret-position="261">
           <caret line="196" column="58" selection-start-line="196" selection-start-column="55" selection-end-line="196" selection-end-column="58" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dav-personas.php">
+    <entry file="file://$PROJECT_DIR$/add_posttype.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        <state relative-caret-position="260">
+          <caret line="62" column="10" selection-start-line="62" selection-start-column="10" selection-end-line="62" selection-end-column="10" />
         </state>
       </provider>
     </entry>
