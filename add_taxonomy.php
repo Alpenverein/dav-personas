@@ -35,6 +35,7 @@ function personarole_taxonomy() {
         'show_in_nav_menus'          => false,
         'show_tagcloud'              => false,
         'rewrite'                    => false,
+        'capabilities'               => array('assign_terms' => 'edit_personas'),
     );
     register_taxonomy( 'personarole', array( 'personas' ), $args );
 
