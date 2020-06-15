@@ -3,7 +3,7 @@
 Plugin Name:  DAV Personas
 Plugin URI:   https://template.alpenverein.de/index.php/faq/personas/
 Description:  Dieses Plugin erzeugt den CustomPostType "Personas". In diesem sollen Mitarbeiter, Tourenleiter und andere Verantwortungsträger im Verein in die Website eingetragen werden. Es existiert eine Verbindung zu DAV-Touren. Damit ist es möglich, Touren mit Personas zu verknüpfen.
-Version:      1.0.7
+Version:      1.1.0
 Author:       Deutscher Alpenverein
 Author URI:   https://template.alpenverein.de/
 License:      GPL2
